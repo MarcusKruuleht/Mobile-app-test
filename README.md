@@ -1,5 +1,5 @@
 ## Teave:
-Rakendus on tehtud Android Studios, Pixel 6 Pro mudelil, Android 12.0 S versioonil
+Rakendus on tehtud Android Studios, Pixel 6 Pro API 31 mudelil, Android 12.0 ("S") versioonil
 
 ## Rakenduse käivitus:
 1. npx react-native start
