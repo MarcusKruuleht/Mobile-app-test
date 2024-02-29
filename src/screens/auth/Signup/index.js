@@ -37,4 +37,4 @@ const Signup = ({navigation}) => {
         </SafeAreaView>
     )
 }
-export default Signup
+export default React.memo(Signup)

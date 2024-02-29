@@ -12,4 +12,4 @@ const Favourites = () => {
         </SafeAreaView>
     )
 }
-export default Favourites
+export default React.memo(Favourites)

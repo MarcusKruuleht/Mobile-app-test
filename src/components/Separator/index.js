@@ -11,4 +11,4 @@ const Separator = ({text}) => {
         </View>
     )
 }
-export default Separator
+export default React.memo(Separator)

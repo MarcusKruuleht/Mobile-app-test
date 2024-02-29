@@ -18,4 +18,4 @@ const Checkbox = ({checked, onCheck}) => {
         </TouchableOpacity>
     )
 }
-export default Checkbox
+export default React.memo(Checkbox)
