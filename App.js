@@ -32,7 +32,7 @@ const Tabs = () => {
                         icon = focused
                             ? require('./src/assets/tabs/home_active.png')
                             : require('./src/assets/tabs/home.png')
-                    }   else if (route.name === 'Favourites') {
+                    }   else if (route.name === 'Favorites') {
                         icon = focused
                             ? require('./src/assets/tabs/bookmark_active.png')
                             : require('./src/assets/tabs/bookmark.png')
