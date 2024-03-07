@@ -17,7 +17,7 @@ const Home = () => {
         if(selectedCategory && !keyword) {
             const updatedSelectedProducts = products.filter((product) =>
             product?.category === selectedCategory)
-            setSelectedProducts(updateSelectedProducts)
+            setSelectedProducts(updatedSelectedProducts)
         } else if(selectedCategory && keyword) {
             const updatedSelectedProducts = products.filter((product) =>
             product?.category === selectedCategory && product?.title?.toLowerCase().includes(keyword.toLowerCase()))
