@@ -8,6 +8,7 @@ import Signin from './src/screens/auth/Signin';
 import Home from './src/screens/app/Home'
 import Favorites from './src/screens/app/Favorites'
 import Profile from './src/screens/app/Profile'
+import ProductDetails from './src/screens/app/ProductDetails'
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -83,6 +84,7 @@ const App = () => {
                         isSignedIn ? (
                             <>
                                 <Stack.Screen name="Tabs" component={Tabs}  option={{headerShown: false}}/>
+                                <Stack.Screen name="ProductDetails" component={ProductDetails}  option={{headerShown: false}}/>
                             </>
                         )   :   (
                             <>
