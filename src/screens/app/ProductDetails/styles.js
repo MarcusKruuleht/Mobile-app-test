@@ -35,13 +35,13 @@ export const styles = StyleSheet.create({
         padding:24,
         flexDirection: 'row',
         alignItems: 'center',
-        marginRight: 75
+        marginRight: 5
     },
     save: {
         flex: 1
     },
     bookmarkContainer: {
-        backgroundColor: colors.lightGray,
+        backgroundColor: colors.lightGrey,
         padding: 18,
         borderRadius:8,
         marginRight: 16

@@ -9,7 +9,7 @@ const ImageCarousel = ({images}) => {
     const handleScrollEnd = (event) => {
         const horizontalOffset = event.nativeEvent.contentOffset.x
         const index = horizontalOffset / width
-        setActiveIndex(index)
+        setActiveIndex(Math.round(index))
     }
 
     const renderImage = ({item}) => {
